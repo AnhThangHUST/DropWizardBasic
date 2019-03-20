@@ -1,0 +1,6 @@
+com/aj/userMongoJack/service/JwtService.class
+com/aj/userMongoJack/service/UserMongoJackService.class
+com/aj/userMongoJack/UserMongoJackApplication.class
+com/aj/userMongoJack/domain/User.class
+com/aj/userMongoJack/UserMongoJackConfiguration.class
+com/aj/userMongoJack/resource/UserMongoJackResource.class
