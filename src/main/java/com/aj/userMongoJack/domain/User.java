@@ -3,26 +3,33 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.mongojack.ObjectId;
 
-public class User {
+import java.security.Principal;
+import java.util.Collection;
+import java.util.Set;
+
+public class User implements Principal {
     private String id;
     private String name;
     private String email;
     private String password;
     private int age;
     private String token;
+    private Set<String> roles;
 //    private Timer latest_login;
 
     // constructor nay de cho phan code sau khi create roi
-    public User() {
-    }
+//    public User() {
+//    }
 
     // constructor nay de cho phan code lan dau create user
-    public User(String name, String email, String password, int age) {
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.age = age;
-    }
+    //Constructor duong nhu ko co y nghia
+//    public User(String name, String email, String password, int age) {
+//        this.name = name;
+//        this.email = email;
+//        this.password = password;
+//        this.age = age;
+////        this.roles.add(role);
+//    }
 
     public String getName() {
         return this.name;
@@ -60,5 +67,14 @@ public class User {
     }
     public void setToken(String token){
         this.token = token;
+    }
+
+    @JsonProperty("role")
+    public Set<String> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<String> roles){
+        this.roles = roles;
     }
 }

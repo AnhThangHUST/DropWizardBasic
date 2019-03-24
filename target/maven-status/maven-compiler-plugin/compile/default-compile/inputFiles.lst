@@ -1,5 +1,8 @@
 /home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/resource/UserMongoJackResource.java
 /home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/UserMongoJackConfiguration.java
 /home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/service/UserMongoJackService.java
+/home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/service/JwtService.java
+/home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/auth/AppBasicAuthorizer.java
 /home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/UserMongoJackApplication.java
+/home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/auth/AppBasicAuthenticator.java
 /home/khoaitaymocmam/Work/Coding/Java/thirdhomework/src/main/java/com/aj/userMongoJack/domain/User.java
